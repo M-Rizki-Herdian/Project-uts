@@ -1,0 +1,32 @@
+name: rizki
+description: "A new Flutter project for managing Santri data."
+publish_to: 'none' # This line is fine if you don't want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4
+  image_picker: ^0.8.4
+  http_parser: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Jika ada asset gambar, bisa ditambahkan di sini
+  assets:
+
+  # Jika kamu menggunakan custom fonts, bisa ditambahkan di sini
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
